@@ -1,0 +1,104 @@
+/* ##################### universal style ################ */
+
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*::after{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*::before{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+li{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid #000; */
+}
+
+
+/* ############### navbar style ############# */
+
+.navbar-container input{
+    width: 40px;
+    height: 32px;
+    display: none;
+}
+.navbar .hamburger{
+    display: none;
+}
+
+.navitems li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+}
+
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 50;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+.navitems{
+    order: 2;
+    display: flex;
+}
+.logo{
+    order: 1;
+    font-size: 3rem;
+    
+}
+.navbar a{
+    color: rgb(31, 29, 29);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+
+}
+.navbar a:hover{
+    color: rgb(23, 189, 23)
+}
+
+
+.showcase{
+    height: 50vh;
+    background-image: url("./img/header-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
